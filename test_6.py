@@ -31,8 +31,8 @@ class Point:
         return abs((other[0] - self.__cortege[0])**2 + (other[1] - self.__cortege[1])**2)**0.5
 
     def sum(self,other):
-        self.new_point = (self.__cortege[0] + other[0], self.__cortege[1] + other[1])
-        return self.new_point
+        new_point = Point((self.__cortege[0] + other[0], self.__cortege[1] + other[1]))
+        return new_point
 
 a = Point((-1,7))
 print(a.get_x())
