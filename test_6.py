@@ -37,5 +37,6 @@ class Point:
 a = Point((-1,7))
 print(a.get_x())
 print(a.get_y())
-print(a.distance((7,1)))
+print((a.distance((7,1))))
+b = a.sum((7,1))
 print(a.sum((7,1)))
